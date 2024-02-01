@@ -1,12 +1,11 @@
-import java.io.*;
-import java.net.*;
+import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         boolean appStatus = true;
-
+        Scanner scanner = new Scanner(System.in);
         while (appStatus) {
             //  --- Menu ----
             System.out.println("\n === Chat App Menu === \n");
@@ -14,28 +13,29 @@ public class Main {
             System.out.println("2. Create Client");
             System.out.println("0. Exit");
             System.out.println("\nOption: ");
-            Scanner scanner = new Scanner(System.in);
+//            Scanner scanner = new Scanner(System.in);
             int option = scanner.nextInt();
 
             switch (option) {
                 case 1:
-                    new createServer();
+                    createServer.main();
                     System.out.println("1");
                     break;
                 case 2:
-                    new createClient();
+                    createClient.main();
                     System.out.println("2");
                     break;
-                case 0:
-                    appStatus = false;
-                    new stopServer();
-                    System.out.println("App terminated");
-                    break;
+//                case 0:
+//                    appStatus = false;
+//                    new stopServer();
+//                    System.out.println("App terminated");
+//                    break;
                 default:
                     System.out.println("Enter a valid option: ");
             }
-            scanner.close();
+//            scanner.close();
         }
+        scanner.close();
     }
 }
 
