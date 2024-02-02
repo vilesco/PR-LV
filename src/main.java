@@ -1,10 +1,13 @@
 import java.io.IOException;
 import java.util.Scanner;
 
+
+
 public class main {
 
     public static void main(String[] args) throws IOException {
         boolean appStatus = true;
+        String classGiven;
         Scanner scanner = new Scanner(System.in);
         while (appStatus) {
             //  --- Menu ----
@@ -18,11 +21,15 @@ public class main {
 
             switch (option) {
                 case 1:
-                    createServer.main();
+//                    createServer.main(new String[]{});
+                    classGiven = "createServer";
+                    Launcher.main(classGiven);
                     System.out.println("1");
                     break;
                 case 2:
-                    createClient.main();
+//                    createClient.main();
+                    classGiven = "createClient";
+                    Launcher.main(classGiven);
                     System.out.println("2");
                     break;
 //                case 0:

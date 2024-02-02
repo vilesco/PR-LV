@@ -5,7 +5,7 @@ import java.net.Socket;
 import java.io.*;
 
 public class createClient {
-    public static void main() throws IOException {
+    public static void main(String[] args) throws IOException {
         String serverIP = "127.0.0.1";
         int serverPort = 9000;
         InetAddress address = InetAddress.getByName(serverIP);

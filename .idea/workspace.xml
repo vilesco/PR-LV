@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9229e3-de03-4ac1-bde2-a7d044d6b145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Launcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/createClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/createServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stopServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stopServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "onboarding.tips.debug.path": "C:/Users/viles/IdeaProjects/PR/src/Main.java"
   }
 }]]></component>

@@ -12,7 +12,8 @@ public class createServer {
     public ServerSocket serverSocket;
     public Socket clientSocket;
 
-    public static void main() throws IOException{
+
+    public static void main(String[] args) throws IOException{
         int port = 9000;
         ServerSocket serverSocket = new ServerSocket(port, 5, InetAddress.getByName("127.0.0.1"));
 
@@ -25,7 +26,6 @@ public class createServer {
 
             try (BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
                  PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true)) {
-
                 String receivedText;
                 while ((receivedText = in.readLine()) != null) {
                     System.out.println("Received: " + receivedText);
